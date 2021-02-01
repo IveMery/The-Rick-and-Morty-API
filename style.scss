@@ -1,0 +1,64 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: pink;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .card {
+        width: 600px;
+        height: 230px;
+        background-color: rgb(60, 62, 68);
+        color: white;
+        border-radius: 20px;
+        display: flex;
+        margin: 15px;
+        &-image {
+            width: 40%;
+            height: auto;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        &-info {
+            margin: 10px;
+        }
+        &-title {
+            font-size: 15px;
+            font-size: bold;
+        }
+        &-subtitle {
+            color: rgb(136, 111, 111);
+        }
+        p {
+            margin: 5px;
+        }
+    }
+    
+    .contenedor-boton {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        .next-page {
+            background-color: black;
+            border: none;
+            color: white;
+            width: 150px;
+            height: 40px;
+            border-radius: 50px;
+        }
+    }
